@@ -1,0 +1,24 @@
+/* Board.css */
+.board {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid #000;
+  }
+  
+  .cell.left-grid-border {
+    border-left: 3px solid black;
+  }
+  
+  .cell.top-grid-border {
+    border-top: 3px solid black;
+  }
+  
